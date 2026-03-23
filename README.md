@@ -1,4 +1,4 @@
-![JavaScript30 Banner](./image_211027.jpg)
+![JavaScript30 Banner](./images/image_211027.jpg)
 
 # 🚀 JavaScript30 Challenge 
 
