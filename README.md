@@ -39,7 +39,7 @@ This repository is built following the incredible **[JavaScript30](https://javas
 
 ## 📅 Progress Tracker
 
-- [ ] **Day 01** - Drum Kit
+- [x] **Day 01** - Drum Kit
 - [ ] **Day 02** - CSS + JS Clock
 - [ ] **Day 03** - CSS Variables
 - [ ] **Day 04** - Array Cardio, Day 1
