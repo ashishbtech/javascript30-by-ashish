@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: white;
+
+  background-image: url("bg-image/banner.webp");
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/65cfc60496d69d1eee637689/e20b9639-9227-446e-b7f0-27c402cb835c/banner.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0,0,0,0.6);
+  animation: pulse 5s infinite;
+
+  z-index: 0;              
+  pointer-events: none;   
+}
+
+@keyframes pulse {
+  0% { background: rgba(0,0,0,0.6); }
+  50% { background: rgba(0,0,0,0.8); }
+  100% { background: rgba(0,0,0,0.6); }
+}
+
+#main {
+  position: relative;
+  z-index: 1;   
+  padding-top: 60px;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: #ff0055;
+  text-shadow:
+    0 0 5px #ff0055,
+    0 0 10px #ff0055,
+    0 0 20px #ff0055;
+}
+
+#drum-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.btn {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+
+  border: 2px solid rgba(255,255,255,0.3);
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+
+.letter {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.sound {
+  font-size: 12px;
+  color: #ffcc00;
+  margin-top: 5px;
+}
+
+
+.btn.active {
+  border-color: #ffcc00;
+  box-shadow:
+    0 0 10px #ffcc00,
+    0 0 20px #ffcc00;
+  transform: scale(1.1);
+}
