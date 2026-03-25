@@ -1,0 +1,17 @@
+:root {
+  --space: 10px;
+  --blur: 5px;
+  --color: #ffc600;
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+}
+
+.img {
+  padding: var(--space);
+  background: var(--color);
+  filter: blur(var(--blur));
+}
