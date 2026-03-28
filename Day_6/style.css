@@ -1,0 +1,46 @@
+body {
+  background: rgb(248, 236, 222);
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 360px;
+  margin: 80px auto;
+  padding: 20px;
+  background: rgb(248, 218, 180);
+  border: 1px solid #ddd;
+}
+
+h2 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+}
+
+.suggestions {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.suggestions li {
+  list-style: none;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions li:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.hl {
+  background: #ffe58a;
+}
