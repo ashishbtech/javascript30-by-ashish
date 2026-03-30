@@ -10,7 +10,7 @@ Welcome to my JavaScript30 repository! This repo documents my journey of complet
 
 **No frameworks. No libraries. No compilers. No boilerplate.** Just pure HTML, CSS, and JS.
 
-![Progress](https://img.shields.io/badge/Progress-17%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-27%25-brightgreen?style=for-the-badge)
 
 ---
 
@@ -44,9 +44,9 @@ This repository is built following the incredible **[JavaScript30](https://javas
 - [x] **Day 03** - CSS Variables
 - [x] **Day 04** - Array Cardio, Day 1
 - [x] **Day 05** - Flex Panel Gallery
-- [ ] **Day 06** - Type Ahead
-- [ ] **Day 07** - Array Cardio, Day 2
-- [ ] **Day 08** - Fun with HTML5 Canvas
+- [x] **Day 06** - Type Ahead
+- [x] **Day 07** - Array Cardio, Day 2
+- [x] **Day 08** - Fun with HTML5 Canvas
 - [ ] **Day 09** - Dev Tools Domination
 - [ ] **Day 10** - Hold Shift to Check Multiple Checkboxes
 - [ ] **Day 11** - Custom Video Player
