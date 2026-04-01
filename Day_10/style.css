@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffc600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inbox {
+  background: #fff;
+  width: 320px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+.item input {
+  margin-right: 10px;
+}
+
+.item p {
+  margin: 0;
+  flex: 1;
+}
+
+input:checked + p {
+  text-decoration: line-through;
+  background: #f9f9f9;
+}
