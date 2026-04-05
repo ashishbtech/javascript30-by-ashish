@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 14: Reference vs Copy (Visualized)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>JS Reference vs Copy</h1>
+    
+    <div class="panels">
+      <div class="panel">
+        <h2>Original Object</h2>
+        <pre id="original-code"></pre>
+      </div>
+      <div class="panel">
+        <h2>Cloned Object</h2>
+        <pre id="clone-code"></pre>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <button id="btn-reference">Update via Reference (=)</button>
+      <button id="btn-copy">Update via Copy (...spread)</button>
+      <button id="btn-reset">Reset Data</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
