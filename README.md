@@ -10,7 +10,7 @@ Welcome to my JavaScript30 repository! This repo documents my journey of complet
 
 **No frameworks. No libraries. No compilers. No boilerplate.** Just pure HTML, CSS, and JS.
 
-![Progress](https://img.shields.io/badge/Progress-40%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-50%25-brightgreen?style=for-the-badge)
 
 ---
 
@@ -51,9 +51,9 @@ This repository is built following the incredible **[JavaScript30](https://javas
 - [x] **Day 10** - Hold Shift to Check Multiple Checkboxes
 - [x] **Day 11** - Custom Video Player
 - [x] **Day 12** - Key Sequence Detection
-- [ ] **Day 13** - Slide in on Scroll
-- [ ] **Day 14** - JavaScript References vs Copying
-- [ ] **Day 15** - LocalStorage
+- [x] **Day 13** - Slide in on Scroll
+- [x] **Day 14** - JavaScript References vs Copying
+- [x] **Day 15** - LocalStorage
 - [ ] **Day 16** - Mouse Move Shadow
 - [ ] **Day 17** - Sort Without Articles
 - [ ] **Day 18** - Adding Up Times with Reduce
