@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webcam Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="photobooth">
+    <div class="controls">
+      <button id="capture">Take Photo</button>
+
+      <select id="effect">
+        <option value="none">No Effect</option>
+        <option value="red">Red Effect</option>
+        <option value="rgb">RGB Split</option>
+        <option value="green">Green Screen</option>
+        <option value="gray">Grayscale</option>
+      </select>
+
+      <div class="rgb">
+        <label>R Min:</label><input type="range" min="0" max="255" name="rmin">
+        <label>R Max:</label><input type="range" min="0" max="255" name="rmax"><br>
+
+        <label>G Min:</label><input type="range" min="0" max="255" name="gmin">
+        <label>G Max:</label><input type="range" min="0" max="255" name="gmax"><br>
+
+        <label>B Min:</label><input type="range" min="0" max="255" name="bmin">
+        <label>B Max:</label><input type="range" min="0" max="255" name="bmax">
+      </div>
+    </div>
+
+    <canvas class="photo"></canvas>
+    <video class="player"></video>
+    <div class="strip"></div>
+  </div>
+
+  <audio class="snap" src="https://actions.google.com/sounds/v1/camera/camera_shutter_click_01.mp3" hidden></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

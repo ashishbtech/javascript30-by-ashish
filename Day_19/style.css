@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #ffc600;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.photobooth {
+  background: white;
+  max-width: 1200px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.photo {
+  width: 100%;
+}
+
+.player {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  transform: scaleX(-1); /* mirror */
+}
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+.strip {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strip img {
+  width: 100px;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
