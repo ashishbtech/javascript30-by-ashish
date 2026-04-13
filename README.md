@@ -10,7 +10,7 @@ Welcome to my JavaScript30 repository! This repo documents my journey of complet
 
 **No frameworks. No libraries. No compilers. No boilerplate.** Just pure HTML, CSS, and JS.
 
-![Progress](https://img.shields.io/badge/Progress-66%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-70%25-brightgreen?style=for-the-badge)
 
 ---
 
@@ -59,8 +59,8 @@ This repository is built following the incredible **[JavaScript30](https://javas
 - [x] **Day 18** - Adding Up Times with Reduce
 - [x] **Day 19** - Webcam Fun
 - [x] **Day 20** - Speech Detection
-- [ ] **Day 21** - Geolocation
-- [ ] **Day 22** - Follow Along Link Highlighter
+- [x] **Day 21** - Geolocation
+- [x] **Day 22** - Follow Along Link Highlighter
 - [ ] **Day 23** - Speech Synthesis
 - [ ] **Day 24** - Sticky Nav
 - [ ] **Day 25** - Event Capture, Propagation, Bubbling, and Once
