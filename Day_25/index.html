@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Architecture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout-wrapper">
+    <div class="target-container">
+      <div class="box one" data-level="Level 1 - Outer">
+        <div class="box two" data-level="Level 2 - Middle">
+          <div class="box three" data-level="Level 3 - Inner">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="controls">
+        <button id="btn-once">Trigger Once</button>
+        <button id="btn-clear">Clear Log</button>
+      </div>
+      <div class="log-window">
+        <ul id="event-log"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
