@@ -10,7 +10,7 @@ Welcome to my JavaScript30 repository! This repo documents my journey of complet
 
 **No frameworks. No libraries. No compilers. No boilerplate.** Just pure HTML, CSS, and JS.
 
-![Progress](https://img.shields.io/badge/Progress-77%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-83%25-brightgreen?style=for-the-badge)
 
 ---
 
@@ -63,8 +63,8 @@ This repository is built following the incredible **[JavaScript30](https://javas
 - [x] **Day 22** - Follow Along Link Highlighter
 - [x] **Day 23** - Speech Synthesis
 - [x] **Day 24** - Sticky Nav
-- [ ] **Day 25** - Event Capture, Propagation, Bubbling, and Once
-- [ ] **Day 26** - Stripe Follow Along Nav
+- [x] **Day 25** - Event Capture, Propagation, Bubbling, and Once
+- [x] **Day 26** - Stripe Follow Along Nav
 - [ ] **Day 27** - Click and Drag
 - [ ] **Day 28** - Video Speed Controller
 - [ ] **Day 29** - Countdown Timer
