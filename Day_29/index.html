@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro & Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="300" class="timer__button">5 Min Break</button>
+      <button data-time="1200" class="timer__button">20 Min SQL</button>
+      <button data-time="2700" class="timer__button">45 Min Focus</button>
+      <button data-time="3600" class="timer__button">1 Hour Deep Work</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="Custom Minutes" autocomplete="off">
+      </form>
+    </div>
+    
+    <div class="display">
+      <h1 class="display__time-left">00:00</h1>
+      <p class="display__end-time">Select a timer to begin</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
