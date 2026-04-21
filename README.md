@@ -3,14 +3,14 @@
 # 🚀 JavaScript30 Challenge 
 
 ![JavaScript30](https://img.shields.io/badge/JavaScript-30-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
 
 Welcome to my JavaScript30 repository! This repo documents my journey of completing the 30-day vanilla JavaScript coding challenge. The premise is simple: build 30 projects in 30 days.
 
 **No frameworks. No libraries. No compilers. No boilerplate.** Just pure HTML, CSS, and JS.
 
-![Progress](https://img.shields.io/badge/Progress-93%25-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen?style=for-the-badge)
 
 ---
 
@@ -67,8 +67,8 @@ This repository is built following the incredible **[JavaScript30](https://javas
 - [x] **Day 26** - Stripe Follow Along Nav
 - [x] **Day 27** - Click and Drag
 - [x] **Day 28** - Video Speed Controller
-- [ ] **Day 29** - Countdown Timer
-- [ ] **Day 30** - Whack A Mole
+- [x] **Day 29** - Countdown Timer
+- [x] **Day 30** - Whack A Mole
 
 ---
 
