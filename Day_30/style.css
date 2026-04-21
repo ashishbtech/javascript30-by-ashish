@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: #0d0d12;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.score {
+  font-weight: 700;
+  color: #00ffaa;
+  font-variant-numeric: tabular-nums;
+}
+
+.start-btn {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #00ffaa;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.start-btn:hover {
+  background: #00ffaa;
+  color: #0d0d12;
+  box-shadow: 0 0 20px rgba(0, 255, 170, 0.3);
+}
+
+.start-btn:active {
+  transform: scale(0.95);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.node {
+  background: #1a1a24;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.target {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(135deg, #00ffaa 0%, #00b377 100%);
+  border-radius: 50%;
+  transition: top 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: crosshair;
+  box-shadow: 0 0 30px rgba(0, 255, 170, 0.4);
+}
+
+.node.active .target {
+  top: 10%;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .controls {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
